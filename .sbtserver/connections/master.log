@@ -1,0 +1,43 @@
+New log file opened at Wed Oct 14 05:35:48 EET 2015 by 6297@labtop
+Taking next connection to: 56017
+New client attempting to connect on port: 56906-56017
+  Address = /127.0.1.1:56017
+This client on port 56906 has uuid 3bfd9680-4fe5-4ca3-8e40-282f81f0907d configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-3bfd9680-4fe5-4ca3-8e40-282f81f0907d
+Taking next connection to: 56017
+New client attempting to connect on port: 56907-56017
+  Address = /127.0.1.1:56017
+Handshake exception on socket: 56907
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 56017
+New client attempting to connect on port: 56908-56017
+  Address = /127.0.1.1:56017
+This client on port 56908 has uuid e8a68781-8314-4f82-921d-fed596ad9de6 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-3bfd9680-4fe5-4ca3-8e40-282f81f0907d, activator-e8a68781-8314-4f82-921d-fed596ad9de6
+Taking next connection to: 56017
+New client attempting to connect on port: 56909-56017
+  Address = /127.0.1.1:56017
+Handshake exception on socket: 56909
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 56017
+New client attempting to connect on port: 56910-56017
+  Address = /127.0.1.1:56017
+This client on port 56910 has uuid f3cf8cc9-9139-475c-9d9b-e167232d53f4 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-3bfd9680-4fe5-4ca3-8e40-282f81f0907d, activator-e8a68781-8314-4f82-921d-fed596ad9de6, activator-f3cf8cc9-9139-475c-9d9b-e167232d53f4
+Taking next connection to: 56017

@@ -1,0 +1,29 @@
+// ## Client Requests:
+
+// verify user request :
+{
+	"tag" : 1,
+	"cmd" : "log-in",
+	"extras" : {
+		"user-name":"Hassan"
+	}
+
+}
+
+
+// ## Server Responses:
+
+// user account found :
+
+{
+	"tag" : 1,
+	"evt" : "logged-in"
+}
+
+// error account not found :
+
+
+{
+	"tag" : 1,
+	"evt" : "account-not-found"
+}
